@@ -1,0 +1,95 @@
+body {
+    width: 100vw;
+    height: 100vw;
+}
+
+.description {
+    background-color: aqua;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-and-name {
+    padding: 1rem;
+    width: 30%;
+}
+
+/*modificar luego*/
+.container-description > img {
+    height: 10rem;
+    width: auto;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.container-description > h1 {
+    font-size: medium;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title-and-text > h2 {
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+.title-and-text > p {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.projects {
+    background-color: antiquewhite;
+    padding: 1.5rem;
+}
+
+.container {
+    background-color: aquamarine;
+    justify-content: space-between;
+    display: flex;
+    padding: 1rem;
+    
+}
+
+.title-projects {
+    text-decoration-line: underline;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-image > img{
+    height: 5rem;
+    width: auto;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.project-text > h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.project-text > p {
+    font-size: small;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+    background-color: aqua;
+}
+
+.icon-footer > a {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    align-items: center;
+}
