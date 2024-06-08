@@ -1,11 +1,25 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+paleta de colores
+rgb(205, 232, 229)
+rgb(238, 247, 255)
+rgb(122, 178, 178)
+rgb(77, 134, 156)
+*/
+
 body {
-    width: 100vw;
-    height: 100vw;
+    width: 393px;
+    height: 0;
+    margin: 0;
 }
 
 .description {
-    background-color: aqua;
-    height: 20rem;
+    background-color: rgb(77, 134, 156);
+    height:auto;
     display: flex;
     justify-content: space-between;
 }
@@ -26,39 +40,43 @@ body {
 .container-description > h1 {
     font-size: medium;
     text-align: center;
-    color: white;
+    color:  rgb(205, 232, 229);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .title-and-text > h2 {
-    font-size: small;
+    padding-top: 3rem;
+    font-size: medium;
+    margin: 0.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: rgb(205, 232, 229);
     text-align: center;
 }
 
 .title-and-text > p {
-    font-size: medium;
+    font-size: small;
+    margin: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: rgb(238, 247, 255);
     text-align: center;
 }
 
 .projects {
-    background-color: antiquewhite;
+    background-color: rgb(205, 232, 229);
     padding: 1.5rem;
 }
 
 .container {
-    background-color: aquamarine;
     justify-content: space-between;
     display: flex;
     padding: 1rem;
-    
+    border:groove 5px rgb(77, 134, 156);
+    margin: 1rem;
 }
 
 .title-projects {
     text-decoration-line: underline;
+    color: rgb(77, 134, 156);
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -73,23 +91,30 @@ body {
 
 .project-text > h3 {
     text-align: center;
-    color: white;
+    color: rgb(122, 178, 178);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .project-text > p {
     font-size: small;
     text-align: center;
-    color: white;
+    color: rgb(122, 178, 178);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
-    background-color: aqua;
+    background-color: rgb(77, 134, 156);
+}
+
+.icon-footer {
+    justify-content: center;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .icon-footer > a {
     font-size: 1.5rem;
-    margin: 0.5rem;
+    margin: 1rem;
     align-items: center;
 }
