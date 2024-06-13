@@ -118,3 +118,83 @@ footer {
     margin: 1rem;
     align-items: center;
 }
+
+@media (min-width: 430px) {
+    
+    body {
+        width: 430px;
+        height: 0;
+        margin: 0;
+    }
+
+    .title-and-text > h2 {
+        padding-top: 2.5rem;
+        font-size: medium;
+        margin: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .title-and-text > p {
+        font-size: small;
+        margin: 1.2rem;
+    }
+
+    .container-description > img {
+        height: 10rem;
+        width: auto;
+        border-radius: 1rem;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+    }
+    
+    .container-description > h1 {
+        font-size: medium;
+        padding-left: 1rem;
+    }
+
+    .projects {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 480px) {
+
+    body {
+        width: 480px;
+        height: 0;
+        margin: 0;
+    }
+
+    .container-description > img {
+        height: 12rem;
+        width: auto;
+        border-radius: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .container-description > h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .photo-and-name {
+        padding: 1rem;
+        width: 40%;
+    }
+
+    .title-and-text > h2 {
+        padding-top: 3rem;
+        font-size: 1.2rem;
+        margin: 0.6rem;
+    }   
+    
+    .title-and-text > p {
+        font-size: 1rem;
+    }
+
+    .title-projects {
+        font-size: 1.5rem;
+    }
+}
+
