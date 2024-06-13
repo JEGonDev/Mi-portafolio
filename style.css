@@ -29,6 +29,10 @@ body {
     width: 30%;
 }
 
+.container-description {
+    width: auto;
+}
+
 /*modificar luego*/
 .container-description > img {
     height: 10rem;
@@ -114,8 +118,8 @@ footer {
 }
 
 .icon-footer > a {
-    font-size: 1.5rem;
-    margin: 1rem;
+    font-size: 2rem;
+    margin: 0.5rem;
     align-items: center;
 }
 
@@ -123,21 +127,27 @@ footer {
     
     body {
         width: 430px;
-        height: 0;
+        height: 932px;
         margin: 0;
+    }
+
+    .container-description {
+        width: 10rem;
+    }
+
+    .container-description > h1 {
+        font-size: 2rem;
     }
 
     .title-and-text > h2 {
         padding-top: 2.5rem;
-        font-size: medium;
+        font-size: 1.3rem;
         margin: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
     }
 
     .title-and-text > p {
         font-size: small;
-        margin: 1.2rem;
+        margin: 1.5rem;
     }
 
     .container-description > img {
@@ -149,12 +159,27 @@ footer {
     }
     
     .container-description > h1 {
-        font-size: medium;
-        padding-left: 1rem;
+        font-size: 1rem;
     }
 
     .projects {
         padding: 1rem;
+    }
+
+    .project-text > h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-text > p {
+        font-size: 1rem;
+    }
+
+    .project-image > img{
+        height: 6rem;
+    }
+
+    .title-projects {
+        font-size: 1.4rem;
     }
 }
 
@@ -162,12 +187,12 @@ footer {
 
     body {
         width: 480px;
-        height: 0;
+        height: 1040px;
         margin: 0;
     }
 
     .container-description > img {
-        height: 12rem;
+        height: 11rem;
         width: auto;
         border-radius: 1rem;
         margin-top: 1.5rem;
@@ -185,7 +210,7 @@ footer {
 
     .title-and-text > h2 {
         padding-top: 3rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin: 0.6rem;
     }   
     
@@ -196,5 +221,159 @@ footer {
     .title-projects {
         font-size: 1.5rem;
     }
+
+    .icon-footer > a {
+        font-size: 2rem;
+        margin: 0.5rem;
+        align-items: center;
+    }
+
+    .project-text > h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-text > p {
+        font-size: 1rem;
+    }
+
+    .project-image > img {
+        height: 6rem;
+    }
 }
 
+@media (min-width: 820px) {
+
+    body {
+        width: 820px;
+        height: 1180px;
+        margin: 0;
+    }
+
+    .description {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .container-description > img {
+        height: 16rem;
+        border-radius: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .container-description > h1 {
+        font-size: 1.3em;
+    }
+
+    .container-description {
+        width: auto;
+    }
+
+    .title-and-text > h2 {
+        font-size: 2rem;
+    }
+
+    .title-and-text > p {
+        font-size: 1.2rem;
+    }
+
+    .projects {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .project-text > h3 {
+        font-size: 2rem;
+        margin: 0.2rem;
+    }
+
+    .project-text > p {
+        font-size: 1.2rem;
+    }
+
+    .project-image > img {
+        height: 6.5rem;
+        margin: 1rem;
+    }
+
+    .icon-footer > a {
+        font-size: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .title-projects {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1558px) {
+    body {
+        width: 1558px;
+        height: 975px;
+        margin: 0;
+    }
+
+    .description {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .container-description > img {
+        height: 25rem;
+        border-radius: 1rem;
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+
+    .container-description > h1 {
+        font-size: 2rem;
+    }
+
+    .container-description {
+        width: auto;
+    }
+
+    .title-and-text > h2 {
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+
+    .title-and-text > p {
+        font-size: 1.7rem;
+    }
+
+    .projects {
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    .project-text > h3 {
+        font-size: 3rem;
+        margin: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .project-text > p {
+        font-size: 1.6rem;
+    }
+
+    .project-image > img {
+        height: 10rem;
+        margin: 2rem;
+    }
+
+    .icon-footer > a {
+        font-size: 3rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .title-projects {
+        font-size: 3rem;
+    }
+}
